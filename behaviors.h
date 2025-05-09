@@ -1,3 +1,13 @@
+#pragma once
+
+// LAYER-TAP KEYS ├────────────────────────────────────────────┐
+#define NUM_ENT &my_lt NUM ENTER
+#define SYM_SPC &my_lt SYM SPACE
+#define NAV_TAB &my_lt NAV TAB
+#define NAV_BSP &my_lt_bspc NAV 0
+
+
+
 #define TAPPING_TERM_TIME 200
 #define QUICK_TAP_TIME 200
 #define IDLE_MOD_TIME 125

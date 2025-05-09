@@ -1,3 +1,5 @@
+#pragma once
+
 #define COMBO(NAME, BINDINGS, KEYPOS, TIMEOUT) \
 combo_##NAME { \
     timeout-ms = <TIMEOUT>; \

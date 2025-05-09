@@ -1,3 +1,5 @@
+#pragma once
+
 #define MACRO(NAME, BINDINGS, WAITTIME, TAPTIME) \
 NAME: NAME { \
     compatible = "zmk,behavior-macro"; \
