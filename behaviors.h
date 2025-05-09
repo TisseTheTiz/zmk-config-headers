@@ -2,7 +2,9 @@
 
 // LAYER-TAP KEYS ├────────────────────────────────────────────┐
 #define NUM_ENT &my_lt NUM ENTER
+#define NUM_UND &my_lt NUM UNDER
 #define SYM_SPC &my_lt SYM SPACE
+#define SYM_BSL &my_lt SYM BSLH
 #define NAV_TAB &my_lt NAV TAB
 #define NAV_BSP &my_lt_bspc NAV 0
 
