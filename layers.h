@@ -7,13 +7,12 @@
 #define NAV 3
 #define ADJ 4
 
-
 / {
     conditional_layers {
         compatible = "zmk,conditional-layers";
         tri_layer {
-            if-layers = <1 2>;
-            then-layer = <4>;
+            if-layers = <SYM NUM>;
+            then-layer = <ADJ>;
         };
     };
 };
