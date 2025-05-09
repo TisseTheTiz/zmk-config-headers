@@ -8,7 +8,7 @@ combo_##NAME { \
 / {
     combos {
         compatible = "zmk,combos";
-        COMBO(esc, &kp ESC, 13 16, 75)
+        COMBO(esc, &kp ESC, LM1 RM1, 75)
         COMBO(caps, &caps_word, 10 19, 75)
         COMBO(capslock, &kp CAPSLOCK, 0 9, 75)
 
