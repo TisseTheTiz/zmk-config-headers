@@ -1,6 +1,6 @@
 #pragma once
 
-#include "headers/layers.h"
-#include "headers/macros.h"
-#include "headers/combos.h"
-#include "headers/behaviors.h"
+#include "layers.h"
+#include "macros.h"
+#include "combos.h"
+#include "behaviors.h"
