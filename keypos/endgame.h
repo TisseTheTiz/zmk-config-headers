@@ -1,4 +1,4 @@
-/*                              ENDGAME / 34 KEY MATRIX / LAYOUT MAPPING
+/*                              ENDGAME / 36 KEY MATRIX / LAYOUT MAPPING
 
     ╭────────────────────────────────────────╮        ╭───────────────────────────────────────────╮
     │   0  1   2   3   4   5   6   7   8   9 │        │  LT4 LT3 LT2 LT1 LT0  RT0 RT1 RT2 RT3 RT4 │
@@ -11,47 +11,55 @@
 
 #pragma once
 
-#define LT0  4  // left-top row
-#define LT1  3
-#define LT2  2
-#define LT3  1
+// left-top row
 #define LT4  0
+#define LT3  1
+#define LT2  2
+#define LT1  3
+#define LT0  4
 
-#define RT0  5 // right-top row
+// right-top row
+#define RT0  5
 #define RT1  6
 #define RT2  7
 #define RT3  8
 #define RT4  9
 
-#define LM0 14  // left-middle row
-#define LM1 13
-#define LM2 12
-#define LM3 11
+// left-middle row
 #define LM4 10
+#define LM3 11
+#define LM2 12
+#define LM1 13
+#define LM0 14
 
-#define RM0 15  // right-middle row
+// right-middle row
+#define RM0 15
 #define RM1 16
 #define RM2 17
 #define RM3 18
 #define RM4 19
 
-#define LB0 24  // left-bottom row 
-#define LB1 23
-#define LB2 22
-#define LB3 21
+// left-bottom row
 #define LB4 20
+#define LB3 21
+#define LB2 22
+#define LB1 23
+#define LB0 24
 
-#define RB0 25  // right-bottom row
+// right-bottom row
+#define RB0 25
 #define RB1 26
 #define RB2 27
 #define RB3 28
 #define RB4 29
 
-#define LH0 32  // left thumb keys + far pinky
-#define LH1 31
+// left thumb keys + far pinky
 #define LH2 30
+#define LH1 31
+#define LH0 32
 
-#define RH0 33  // right thumb keys + far pinky
+// right thumb keys + far pinky
+#define RH0 33
 #define RH1 34
 #define RH2 35
 
